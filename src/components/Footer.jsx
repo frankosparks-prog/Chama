@@ -28,7 +28,7 @@ function Footer() {
         <div>
           <h3 className="text-lg font-semibold mb-4">Contact Us</h3>
           <p className="text-sm mb-2">
-            <strong>Email:</strong> contact@villagechama.com
+            <strong>Email:</strong> contact@villageKiti.com
           </p>
           <p className="text-sm">
             <strong>Phone:</strong> +254 123 456 789
@@ -57,7 +57,7 @@ function Footer() {
 
       {/* Footer Bottom */}
       <div className="text-center mt-8 border-t border-gray-700 pt-4 text-sm">
-        <p>&copy; 2025 Village Chama. All rights reserved.</p>
+        <p>&copy; 2025 Kiti. All rights reserved.</p>
       </div>
     </footer>
   );

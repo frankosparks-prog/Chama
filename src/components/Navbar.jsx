@@ -51,7 +51,7 @@
 //             className="h-12 md:h-14 rounded-full border-2 border-white"
 //           />
 //           <span className="font-bold text-2xl md:text-3xl font-serif text-white drop-shadow-sm">
-//             Chama
+//             Kiti
 //           </span>
 //         </div>
 
@@ -93,7 +93,7 @@
 //               className="h-10 rounded-full"
 //             />
 //             <span className="font-bold text-xl text-white font-serif">
-//               Chama
+//               Kiti
 //             </span>
 //           </div>
 //           <button
@@ -217,7 +217,7 @@ const Navbar = () => {
             className="h-12 md:h-14 rounded-full border-2 border-white"
           />
           <span className="font-bold text-2xl md:text-3xl font-serif text-white drop-shadow-sm">
-            Chama
+            Kiti
           </span>
         </div>
 
@@ -264,7 +264,7 @@ const Navbar = () => {
               className="h-10 rounded-full"
             />
             <span className="font-bold text-xl text-white font-serif">
-              Chama
+              Kiti
             </span>
           </div>
           <button

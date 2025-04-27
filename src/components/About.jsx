@@ -40,7 +40,7 @@ const About = () => {
           </h2>
 
           <p className="text-lg sm:text-xl md:text-2xl text-gray-700 mb-8 leading-relaxed animate-fadeInDelay">
-            Our community, Chama, is a place where dreams are nurtured, friendships are forged, and opportunities are created. We focus on growth, collaboration, and making a meaningful impact in the lives of every member.
+            Our community, Kiti, is a place where dreams are nurtured, friendships are forged, and opportunities are created. We focus on growth, collaboration, and making a meaningful impact in the lives of every member.
           </p>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-10">

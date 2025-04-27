@@ -94,7 +94,7 @@ const Home = () => {
           </h2>
 
           <h1 className="text-4xl sm:text-5xl md:text-6xl font-extrabold text-white drop-shadow-lg mb-6 animate-fadeInDelay">
-            Welcome to Chama!
+            Welcome to Kiti!
           </h1>
 
           <p className="text-base sm:text-lg md:text-2xl text-gray-200 mb-10 animate-fadeInDelay2 px-2">

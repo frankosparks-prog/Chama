@@ -7,14 +7,14 @@ const events = [
   {
     title: "Annual General Meeting",
     date: "June 15, 2025",
-    location: "Village Chama Hall",
+    location: "Village Kiti Hall",
     description: "Join us for our Annual General Meeting to discuss key achievements, financials, and future plans.",
     image: "https://picsum.photos/400/250?random=1", // Random image from Lorem Picsum
   },
   {
     title: "Fundraising Gala",
     date: "August 10, 2025",
-    location: "Chama Gardens",
+    location: "Kiti Gardens",
     description: "A grand night to support our community projects. Dress code: Elegant!",
     image: "https://picsum.photos/400/250?random=2", // Random image from Lorem Picsum
   },
@@ -35,7 +35,7 @@ const events = [
   {
     title: "End Year Celebration",
     date: "December 20, 2025",
-    location: "Chama Clubhouse",
+    location: "Kiti Clubhouse",
     description: "Celebrate the year’s achievements with music, food, and fun!",
     image: "https://picsum.photos/400/250?random=5", // Random image from Lorem Picsum
   },

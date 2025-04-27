@@ -49,7 +49,7 @@ function Contributions() {
           <p className="text-gray-600 mb-4">
             Send your contribution to Paybill{" "}
             <span className="font-semibold">123456</span>, Account:{" "}
-            <span className="font-semibold">Chama</span>.
+            <span className="font-semibold">Kiti</span>.
           </p>
           <button
             onClick={() => openModal("M-Pesa")}
@@ -82,7 +82,7 @@ function Contributions() {
           <p className="text-gray-600 mb-4">
             Account No: <span className="font-semibold">01123456789</span>{" "}
             <br />
-            Bank: Chama Bank Ltd
+            Bank: Kiti Bank Ltd
           </p>
           <button
             onClick={() => openModal("Bank Transfer")}

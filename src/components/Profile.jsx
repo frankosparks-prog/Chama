@@ -23,7 +23,7 @@ const Profile = () => {
         <div className="mt-6">
           <h3 className="text-lg font-semibold text-green-600 mb-2">About Me</h3>
           <p className="text-gray-600 text-sm">
-            Passionate member of Village Chama. Loves contributing to community projects and participating in local events.
+            Passionate member of Kiti. Loves contributing to community projects and participating in local events.
           </p>
         </div>
 

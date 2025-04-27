@@ -20,7 +20,7 @@ const Join = () => {
     e.preventDefault();
     console.log("Form Data:", formData);
     // Later: send this data to your backend or database
-    alert("Thank you for applying to join Chama! 🎉");
+    alert("Thank you for applying to join Kiti! 🎉");
     setFormData({ name: "", email: "", reason: "" }); // Clear form
   };
 
@@ -76,7 +76,7 @@ const Join = () => {
                 onChange={handleChange}
                 required
                 className="w-full border border-gray-300 rounded-lg px-4 py-2 h-28 resize-none focus:outline-none focus:ring-2 focus:ring-green-600"
-                placeholder="Tell us why you would like to be part of Chama"
+                placeholder="Tell us why you would like to be part of Kiti"
               ></textarea>
             </div>
 
