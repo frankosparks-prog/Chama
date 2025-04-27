@@ -45,7 +45,7 @@ function Gallery() {
   }, []);
 
   return (
-    <div className="bg-gray-50 min-h-screen py-10 px-6 md:px-20">
+    <div className="bg-gray-50 min-h-screen py-10 px-6 md:px-20 mt-[-2rem]">
       {/* Hero Section */}
       <div className="text-center mb-12">
         <h1 className="text-3xl md:text-5xl font-bold text-green-700 mb-4">

@@ -122,7 +122,6 @@
 //   ))}
 // </nav>
 
-
 //         {/* Get Started Button */}
 //         <div className="absolute bottom-8 w-full flex justify-center">
 //           <Link
@@ -190,8 +189,16 @@ const Navbar = () => {
   const links = [
     { path: "/", name: "Home", icon: <HomeIcon size={20} /> },
     { path: "/about", name: "About", icon: <InfoIcon size={20} /> },
-    { path: "/announcements", name: "Announcements", icon: <MegaphoneIcon size={20} /> },
-    { path: "/contributions", name: "Contributions", icon: <HandCoinsIcon size={20} /> },
+    {
+      path: "/announcements",
+      name: "Announcements",
+      icon: <MegaphoneIcon size={20} />,
+    },
+    {
+      path: "/contributions",
+      name: "Contributions",
+      icon: <HandCoinsIcon size={20} />,
+    },
     { path: "/events", name: "Events", icon: <CalendarIcon size={20} /> },
     { path: "/profile", name: "Profile", icon: <UserIcon size={20} /> }, // ✅ Added Profile
   ];
@@ -234,6 +241,11 @@ const Navbar = () => {
               <span>{link.name}</span>
             </Nav.Link>
           ))}
+          {/* <Nav.Link as={Link} to="/profile" className="text-white">
+            <span>
+              <UserIcon size={20} />
+            </span>
+          </Nav.Link> */}
         </nav>
       </header>
 
@@ -311,7 +323,8 @@ const Navbar = () => {
           <Route path="/events" element={<Events />} />
           <Route path="/join" element={<Join />} />
           <Route path="/gallary" element={<Gallery />} />
-          <Route path="/profile" element={<Profile />} /> {/* ✅ Profile route */}
+          <Route path="/profile" element={<Profile />} />{" "}
+          {/* ✅ Profile route */}
           <Route path="*" element={<NotFound />} />
         </Routes>
       </main>
